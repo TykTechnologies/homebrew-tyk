@@ -9,7 +9,7 @@ class TykSync < Formula
   depends_on :macos
 
   on_intel do
-    url "https://packagecloud.io/tyk/tyk-sync/packages/anyfile/tyk-sync_2.2.0_darwin_amd64.zip/download"
+    url "https://packagecloud.io/tyk/tyk-sync/packages/anyfile/tyk-sync_2.2.0_darwin_amd64.zip/download?distro_version_id=230"
     sha256 "1fcba8c399eb77334d77e10a6f60a4aec8d89bf1c4b8d87cfda347b4db2e25b9"
 
     def install
@@ -17,7 +17,7 @@ class TykSync < Formula
     end
   end
   on_arm do
-    url "https://packagecloud.io/tyk/tyk-sync/packages/anyfile/tyk-sync_2.2.0_darwin_arm64.zip/download"
+    url "https://packagecloud.io/tyk/tyk-sync/packages/anyfile/tyk-sync_2.2.0_darwin_arm64.zip/download?distro_version_id=230"
     sha256 "d8bd3b34b4b825bdd60e9f308910574cf6e91357a2773dcf67036ba59369d19f"
 
     def install
