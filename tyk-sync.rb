@@ -5,20 +5,20 @@
 class TykSync < Formula
   desc "Command-line tool to sync Tyk API definitions with version control"
   homepage "https://tyk.io"
-  version "2.2.0"
+  version "2.2.2"
   depends_on :macos
 
   on_intel do
-    url "https://packagecloud.io/tyk/tyk-sync/packages/anyfile/tyk-sync_2.2.0_darwin_amd64.zip/download?distro_version_id=230"
-    sha256 "1fcba8c399eb77334d77e10a6f60a4aec8d89bf1c4b8d87cfda347b4db2e25b9"
+    url "https://packagecloud.io/tyk/tyk-sync/packages/anyfile/tyk-sync_2.2.2_darwin_amd64.zip/download?distro_version_id=230"
+    sha256 "addc42d4cb9297718c836d4b92ff819ed9b81c8cb30cb8751147cc5545ae8e6d"
 
     def install
       bin.install "tyk-sync"
     end
   end
   on_arm do
-    url "https://packagecloud.io/tyk/tyk-sync/packages/anyfile/tyk-sync_2.2.0_darwin_arm64.zip/download?distro_version_id=230"
-    sha256 "d8bd3b34b4b825bdd60e9f308910574cf6e91357a2773dcf67036ba59369d19f"
+    url "https://packagecloud.io/tyk/tyk-sync/packages/anyfile/tyk-sync_2.2.2_darwin_arm64.zip/download?distro_version_id=230"
+    sha256 "01aba420afe9ddf1c7a2ff1e47512bfe9e4b6a3f72a7247eb0ce0eb83b404fd9"
 
     def install
       bin.install "tyk-sync"
